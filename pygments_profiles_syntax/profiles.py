@@ -27,7 +27,7 @@ class ProfilesLexer(RegexLexer):
                         'activate'
                     )
                 ),
-                Number
+                Keyword
             ),
             (
                 r'->',
